@@ -6,7 +6,7 @@ $(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 # Boot animation
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/bootanimation/bootanimation_bootanimation_720.zip:system/media
+    vendor/aokp/prebuilt/bootanimation/bootanimation_720.zip:system/media
 
 # Release name
 PRODUCT_RELEASE_NAME := MOTO G
